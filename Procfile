@@ -1,0 +1,1 @@
+web: knex migrate:rollback && knexmigrate:latest && node index.js
