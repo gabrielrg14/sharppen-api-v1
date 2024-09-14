@@ -1,12 +1,30 @@
 {
   "name": "sharppen-api",
   "version": "1.0.0",
+  "description": "API of the Social Network SharpPen, focused on the interactions between Colleges and their Entrance Students.",
+  "author": "Gabriel Rapucci Gonzalez <gabrielrapuccigonzalez14@hotmail.com> (https://gabrielrapucci.com.br)",
+  "homepage": "https://github.com/gabrielrg14/sharppen-api-v1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielrg14/sharppen-api-v1"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielrg14/sharppen-api-v2/issues"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sharppen-api",
+    "rest-api",
+    "back-end",
+    "portfolio"
+  ],
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "start": "knex migrate:latest && node index.js",
     "dev": "nodemon index.js"
   },
-  "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "1.18.3",
