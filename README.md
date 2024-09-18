@@ -13,6 +13,16 @@ Technologies studied and used to carry out this project:
 - [`Knex.js`](https://knexjs.org/)
 - [`PostgreSQL`](https://www.postgresql.org/)
 
+## 📝 Pre-requirements
+
+To clone and run this project, you will need:
+
+- [`Git`](https://git-scm.com/)
+- [`Node.js`](https://nodejs.org/)
+- [`npm`](https://www.npmjs.com/)
+
+**Note:** When installing Node.js, npm is automatically installed. 🎉
+
 ## 🛠️ Installation
 
 ```bash
